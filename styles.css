@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    overflow: auto;
+    padding: 30px 5rem;
+    position: fixed;
+    width: 100%;
+    display: flex;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: 160px;
+    height: 40px;
+    
+}
+.navbar {
+    float: right;
+    margin-top: 15px;
+    margin-right: 350px;
+
+}
+.navbar a{
+    margin-left: 30px;
+     color: #fff;
+}
+.navbar .last{
+  background-color: #f76570;
+  width: 60px;
+  height: 80px;
+  border-radius: 50px;
+  padding: 10px;
+}
+.menu img{
+    width: 25px;
+    height: 27px;
+    
+}
+.menu{
+    float: right;
+}
+.slider{
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20rem 0;
+    
+}
+.slider h1{
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.slider h6{
+    font-size: 20px;
+    color: #fff;
+}
